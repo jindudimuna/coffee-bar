@@ -1,0 +1,75 @@
+.navlogo{
+    height: 45px;
+    width: 145px;
+    margin-left: 10%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.navbar-toggler{
+    font-family: 'Mingzat';
+    font-size: 15px;
+    font-weight: 700;
+
+}
+body{
+    background-image: url("./15.jpeg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.home-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.landing-text{
+    color: white;
+    font-family: 'Lora';
+    font-size: 10vh;
+  
+}
+
+.btn{
+    height: 75px;
+    width: 200px;
+    font-family:  'Mingzat';
+    font-weight:700;
+}
+
+.address{
+    width: 160px;
+    color: white;
+    font-family: 'Lora';
+    font-size: 2.5vh;
+    margin-top: 7%;
+    margin-left: 3%;
+
+}
+
+ 
+@media only screen and (max-width: 414px) {
+
+
+    .landing-text{
+        font-family: 'Lora';
+        font-size: 1.5em;
+      
+    }
+    .btn{
+        height: 50px;
+        width: 150px;
+    }
+    
+    .address{
+        width: 130px;
+        color: white;
+        font-family: 'Lora';
+        font-size: 0.8em;
+        margin-top: 17%;
+        margin-left: 3%;
+    
+    }
+    
+}
