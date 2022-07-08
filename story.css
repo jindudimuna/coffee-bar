@@ -115,7 +115,21 @@
 .animate__fadeInRight{
  
 }
+.socials{
+    color: black;
+ 
+}
+.social-links{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
+h3{
+    font-size: 1em;
+}
+/* 
+mobile view */
 @media only screen and (max-width: 414px){
 
     
@@ -133,7 +147,7 @@
 }
 .story-section {
     display: grid;
-    grid-template-columns: repeat(2, 3fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 50px;
     grid-row-gap: 0px;
@@ -174,14 +188,14 @@
     font-size: 2.0em;
     font-weight: 600;
     align-item: center;
-    z-index: 1000;
-    position: absolute;
+
+   
 }
 .banner{
     background-color: #C0C0C0;
     width: 100%;
     height: 20vh;
-    position: relative;
+
 }
 
 /* .foot-pic{
