@@ -1,0 +1,151 @@
+
+
+.navlogo{
+    height: 45px;
+    width: 145px;
+    margin-left: 10%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.navbar-toggler{
+    font-family: 'Mingzat';
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.home-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 20%; */
+    background-image: url("./16.jpeg");
+    background-size: cover;
+    height:100vh;
+    background-repeat: repeat;
+}
+
+.landing-text{
+    color: white;
+    font-family: 'Lora';
+    font-size: 15vh;
+    margin-top: 25%;
+  
+}
+
+.topline{
+    border: 5px solid;
+    position: relative;
+    background-color: black;
+    margin-top: 10%;
+    width: 80%;
+    margin-left:10%;
+
+}
+
+
+.story-text{
+    color: black;
+    width: 500px;
+    font-family: 'Mingzat';
+    font-size: 1.5em;
+    margin-top: 10%;
+    font-weight: 400;
+
+
+}
+.story-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(3, 0) 1fr 0;
+    grid-column-gap: 50px;
+    grid-row-gap: 1px;
+
+    }
+    
+    .story-pic1 { 
+        grid-area: 4 / 1 / 5 / 2; 
+        margin-top:75%;
+        margin-left:10%;
+    
+    
+    }
+    .story {
+        
+        grid-area: 4 / 2 / 5 / 3; 
+    
+    }
+
+.book{
+    margin-top: 10%;
+    margin-bottom:30%;
+}
+    
+.btn{
+    height: 75px;
+    width: 200px;
+    font-family:  'Mingzat';
+    font-weight:700;
+}
+
+
+.banner{
+    background-color: #C0C0C0;
+    width: 100%;
+    height: 30vh;
+}
+
+.banner-text{
+    color: black;
+    font-family: 'Kanit','Mingzat';
+    font-size: 9em;
+    font-weight: 600;
+    align-item: center;
+}
+
+.animate__fadeInRight{
+    animate-duration: 2s;
+    /* animate-repeat: infinite; */
+}
+
+@media only screen and (max-width: 414px){
+
+    
+.landing-text{
+    color: white;
+    font-family: 'Lora';
+    font-size: 1.5em;
+    margin-top: 53%;
+  
+}
+
+.btn{
+    height: 50px;
+    width: 150px;
+}
+
+.story-text{
+    color: black;
+    width: 200px;
+    font-family: 'Mingzat';
+    font-size: 1em;
+    margin-top: 10%;
+    font-weight: 400;
+
+
+}
+
+.story-pic1 { 
+/* 
+    margin-top:98%; */
+    margin-left:10%;
+
+
+}
+
+.cup{
+    width: 120%;
+    
+    margin-top:50%;
+}
+
+}
