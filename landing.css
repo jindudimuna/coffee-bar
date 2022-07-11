@@ -5,6 +5,10 @@
     margin-top: 12px;
     margin-bottom: 12px;
 }
+.menu-links{
+
+    color: black;
+}
 .navbar-toggler{
     font-family: 'Mingzat';
     font-size: 15px;

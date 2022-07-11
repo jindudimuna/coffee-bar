@@ -1,7 +1,10 @@
 * {
     box-sizing: border-box;
 }
+.menu-links{
 
+    color: black;
+}
 .navlogo{
     height: 45px;
     width: 145px;
@@ -112,9 +115,7 @@
 .foot-pic{
     width: 100%;
 }
-.animate__fadeInRight{
- 
-}
+
 .socials{
     color: black;
  

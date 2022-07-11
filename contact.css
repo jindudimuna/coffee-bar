@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+}
+
+.menu-links{
+
+    color: black;
+}
+.navlogo{
+    height: 45px;
+    width: 145px;
+    margin-left: 10%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.navbar-toggler{
+    font-family: 'Mingzat';
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.contact-form{
+    background-color: #C0C0C0;
+}
+
+
+.welcome-text{
+    font-family: 'Lora';
+    font-size: 5em;
+    color: black;
+    margin-top: 10%;
+}
+
+.welcome-text-2{
+    font-family: 'Mingzat';
+    color: black;
+    margin-top: 10%;
+}
+
+.welcome-text-3{
+    font-family: 'Playfair Display';
+    color: black;
+}
+
+.text-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+   border-bottom-width: thick;
+    background-color: #C0C0C0;
+
+ 
+  }
+  
+  .no-outline:focus {
+    outline: none;
+
+  }
+
+.form-1{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin-top: 10%;
+    
+}
+
+.form-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10%;
+        
+    }
+
+    .form-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+            
+        }    
+
+        .btn{
+            height: 75px;
+            width: 200px;
+            font-family:  'Mingzat';
+            font-weight:700;
+            margin-top: 40%;
+        }
+
+
+.address, .contact-line, .time{
+    font-family: 'Catamaran';
+    color: black;
+    margin-top: 10%;
+}
+
+.hours{
+    font-family: 'Kanit','Mingzat';
+    color: black;
+
+}
+
+.contact-details {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 10%;
+
+    }
+    
+    .contact-text { 
+        
+        grid-area: 1 / 1 / 2 / 2;
+        margin-left: 20%;
+    
+    }
+    .contact-pic { 
+        
+        grid-area: 1 / 2 / 2 / 3; 
+        margin-left: 40%;
+    
+    }
+
+
+    
+.banner{
+    background-color: #C0C0C0;
+    width: 100%;
+    height: 30vh;
+   
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.banner-text{
+    color: black;
+    font-family: 'Kanit','Mingzat';
+    font-size: 7em;
+    font-weight: 600;
+    align-item: center; 
+ 
+}
+
+.foot-pic{
+    width: 100%;
+}
+
+.socials{
+    color: black;
+ 
+}
+.social-links{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h3{
+    font-size: 1em;
+}
+/* 
+mobile view */
+@media only screen and (max-width: 414px){
+
+    .welcome-text{
+        font-family: 'Lora';
+        font-size: 2.5em;
+        color: black;
+        margin-top: 10%;
+    }
+
+    .welcome-text-2{
+        font-family: 'Mingzat';
+        color: black;
+        margin-top: 10%;
+        font-size: 1em;
+    }
+
+    
+.btn{
+    height: 50px;
+    width: 150px;
+}
+
+.address, .contact-line, .time{
+    font-family: 'Catamaran';
+    color: black;
+    margin-top: 10%;
+    font-size: 1em;
+}
+
+.hours{
+    font-family: 'Kanit','Mingzat';
+    color: black;
+    font-size: 1em;
+
+}
+
+.contact-img{
+
+    width: 100%;
+    
+}
+
+
+.banner-text{
+    color: black;
+    font-family: 'Kanit','Mingzat';
+    font-size: 2.0em;
+    font-weight: 600;
+    align-item: center;
+
+   
+}
+.banner{
+    background-color: #C0C0C0;
+    width: 100%;
+    height: 20vh;
+
+}
+}
