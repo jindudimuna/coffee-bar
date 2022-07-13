@@ -59,6 +59,7 @@ input {
     background-color: #C0C0C0;
     padding: 1px 0px;
 
+
  
   }
   
@@ -231,5 +232,9 @@ mobile view */
     width: 100%;
     height: 20vh;
 
+}
+
+input{
+    width: 150px;
 }
 }
